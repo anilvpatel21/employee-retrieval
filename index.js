@@ -1,4 +1,4 @@
-function runScript() {
+async function runScript() {
     var tableHtml = '<table id="employeelists">';
     tableHtml += '<thead>';
     tableHtml += '<tr>';
@@ -47,5 +47,6 @@ function runScript() {
             tableHtml += '</table>';
         }
     }
+    console.log(tableHtml);
 }
 runScript();
